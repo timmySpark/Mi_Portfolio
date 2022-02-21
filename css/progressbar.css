@@ -1,0 +1,61 @@
+
+.tittle-warp h2 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 65px;
+  letter-spacing: -.5px;
+  margin-bottom: 30px;
+}
+.extra-margin h2{
+	margin-bottom:50px;
+}
+.skill-bar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+.skillbar-group .skill-track {
+  background-color: #ff3984;
+}
+.single-skill-bar{
+  margin-bottom:25px;
+}
+
+.single-skill-bar .skill-title {
+	font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+ }
+.single-skill-bar p{
+	font-size:16px;
+}
+.barfiller {
+  width:100%;
+   height: 4px;
+  background-color:#fff;
+  position:relative;
+  margin-bottom:0px;
+}
+.barfiller .fill {
+  display:block;
+  position:relative;
+  width:0px;
+  height:100%;
+  background:#feb400 !important;
+  z-index:1;
+}
+.barfiller .tipWrap{
+  display:none;
+}
+.barfiller .tip {
+  margin-top:-30px;
+  padding:2px 4px;
+  font-size:15px;
+  color:#fff;
+  left:0px;
+  position:absolute;
+  z-index:2;
+	font-weight:500;
+  background: transparent;
+}
