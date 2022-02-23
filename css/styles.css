@@ -257,7 +257,8 @@ text-decoration: none;
     box-shadow:none;
 }
 .margin{
-  margin-bottom:50px!important;
+  height:620px;
+  /* margin-bottom:50px!important; */
   transition:all .5s ease-in-out;
 }
 
@@ -346,10 +347,10 @@ text-decoration: none;
     .another-card{
       margin: 0 auto !important;
     }
-    .margin{
+    /* .margin{
       margin-bottom:450px!important;
       transition:all .5s ease-in-out;
-    }
+    } */
     .mt-4{
       margin-top: 1.5rem !important;
     }
@@ -377,7 +378,7 @@ text-decoration: none;
   }
   .img-fluid{
     width:100%;
-    
+
     object-fit: cover;
   }
   .abt-resp{
@@ -402,6 +403,4 @@ text-decoration: none;
   .contact p{
     margin-bottom:0;
   }
-
-
 }
